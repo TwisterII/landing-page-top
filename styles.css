@@ -17,7 +17,7 @@
 .header {
   background-color: #1f2937;
   color: white;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
 .header-content {
@@ -28,17 +28,11 @@
   align-items: center;
 }
 
-.links {
+.links, li {
   display: flex; 
   gap: 16px; 
-  list-style: none; 
-  padding: 0px 16px;
-}
-
-li{
+  padding: 0px 8px;
   list-style-type: none;
-  display: flex;
-  gap: 16px;
 }
 
 /* ------- Hero Section ------- */
@@ -82,3 +76,48 @@ li{
   font-weight: 500;
 }
 
+/* ------- Carousel Section ------- */
+
+.carousel-content{
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center;
+  padding: 0 16px;
+  margin-bottom: 100px;
+}
+
+.carousel-header{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.carousel-cards{
+  display: flex;
+  text-align: center;
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-image{
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+  height: 150px;
+  width: 150px;
+}
+
+.card-text{
+  font-size: 18px;
+  color:grey;
+  padding: 0 12px;
+}
+
+/* ------- Quote Section ------- */
